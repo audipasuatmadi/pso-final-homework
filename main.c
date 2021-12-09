@@ -37,5 +37,9 @@ int main()
   callDatabase();
 
   showUI();
+
+  // Jangan hiraukan ini, hanya untuk menunggu eksekusi callDatabase selesai
+  // setelah teman - teman mengimplementasikan konsep Thread pada fungsi callDatabase
+  sleep(15);
   return 0;
 }
